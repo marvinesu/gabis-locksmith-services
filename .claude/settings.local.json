@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\\\\css\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\\\\js\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\\\\images\")",
+      "Bash(npm install *)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
