@@ -6,7 +6,10 @@
       "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\\\\js\")",
       "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\marvin\\\\Gabis Locksmith Services\\\\public\\\\images\")",
       "Bash(npm install *)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cd \"/c/Users/marvin/Gabis Locksmith Services\" && find . -not -path './.git/*' -type f)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget"
     ]
   }
 }
