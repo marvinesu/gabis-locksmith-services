@@ -7,7 +7,7 @@
   --dark: #0D0D0D;
   --dark-2: #1A1A1A;
   --dark-3: #242424;
-  --gray: #6B7280;
+  --gray: #4B5563;
   --gray-light: #F3F4F6;
   --white: #FFFFFF;
   --radius: 12px;
@@ -565,7 +565,7 @@ img { max-width: 100%; display: block; }
 .footer-brand .nav-logo { margin-bottom: 16px; }
 .footer-brand p { color: rgba(255,255,255,0.75); font-size: 0.9rem; line-height: 1.7; max-width: 280px; }
 
-.footer-links h4, .footer-contact h4 {
+.footer-links h3, .footer-contact h3 {
   color: var(--white);
   font-size: 0.85rem;
   font-weight: 700;
@@ -600,7 +600,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.82rem;
   text-align: center;
 }
-.footer-bottom a { color: var(--gold); }
+.footer-bottom a { color: var(--gold); text-decoration: underline; }
 
 /* ── HERO IMAGE LAYOUT ── */
 .hero-bg-img {
