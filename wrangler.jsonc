@@ -4,6 +4,10 @@
   "compatibility_date": "2026-09-29",
   "workers_dev": true,
   "preview_urls": true,
+  "routes": [
+    { "pattern": "gabislocksmithservices.com", "custom_domain": true },
+    { "pattern": "www.gabislocksmithservices.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./public",
     "not_found_handling": "single-page-application"
