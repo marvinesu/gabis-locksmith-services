@@ -26,3 +26,11 @@ test('publishes business identity and matching hours schema', () => {
   assert.match(home, /"streetAddress":"6160 Laurelgrove Ave"/);
   assert.match(home, /"dayOfWeek":"Saturday","opens":"18:00","closes":"23:59"/);
 });
+
+test('serves a real noindex 404 instead of the homepage for unknown paths', () => {
+  const page = readFileSync(join(root, '404.html'), 'utf8');
+  const worker = readFileSync(join(__dirname, '..', 'wrangler.jsonc'), 'utf8');
+  assert.match(page, /name="robots" content="noindex,follow"/);
+  assert.match(page, /This page could not be found/);
+  assert.match(worker, /"not_found_handling": "404-page"/);
+});
